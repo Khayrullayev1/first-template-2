@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-left: 50px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.top .container{
+    background-color: #C8A35F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
