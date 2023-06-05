@@ -1,26 +1,104 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    padding-left: 50px;
+    background-color: #2F343A;
+    color: #fff;
+    font-family: system-ui;
 }
+
 li{
     list-style: none;
 }
+
 a{
     text-decoration: none;
     color: #fff;
 }
+
 .container{
     width: 1110px;
     margin: 0 auto;
 }
-.top .container{
+
+/* top */
+.top{
     background-color: #C8A35F;
+    padding: 16px 0;
+}
+
+.top .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.top ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.top ul li{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.top a{
+    font-size: 12px;
+}
+
+/* navbar */
+.navbar .container{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 0;
+}
+
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .menu{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .menu li{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* hero */
+.hero{
+    background-image: url(images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 155px 0 220px;
+}
+
+.hero .block{
+    border: 1px solid #C8A35F;
+    padding: 45px 70px;
+    text-align: center;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.hero .block h1{
+    font-size: 64px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.hero .block p{
+    font-size: 18px;
 }
 
